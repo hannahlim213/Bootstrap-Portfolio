@@ -1,3 +1,13 @@
+body{
+    background-image:url("https://www.toptal.com/designers/subtlepatterns/patterns/concrete-texture.png");
+}
+
+.navbar-light .navbar-brand{
+color:white;
+font-weight:700;
+font-size:30px;
+font-family:'Times New Roman', Times, serif;
+}
 .card{
     margin-top:30px;
     padding:10px;
@@ -6,6 +16,7 @@
 #hannahImg{
     width: 200px;
     float:left;
+    position:none;
     margin: 0px 10px 10px 0px;
 }
 
@@ -19,11 +30,18 @@
     background-color: rgb(89,170,165);
     padding: 12px 24px 10px;
     bottom: 0px;
+    transition: transform 300ms eas-in-out 1s;
 }
-
+.custom-brand:hover{
+    transform: rotate(20deg)
+}
 #navbar{
     color:rgb(173, 172, 172);
     
+    
+}
+nav{
+    margin-bottom:30px;
 }
 
 .navbar-right{
@@ -39,6 +57,32 @@
     color:rgb(89,170,165);
 }
 
+#images{
+    width: 90%;
+    margin-top: 20px;
+}
+
+
+
+@media screen and (max-width: 980px){
+    .custom-brand{
+        left:192px;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    .custom-brand{
+        left:86px;
+    }
+
+    h1{
+        position:relative;
+        left:48px;
+    }
+
+}
+
 @media screen and (max-width:640px) {
 
 .custom-brand{
@@ -51,13 +95,49 @@
 }
 .navbar-right{
     position: relative;
-    left: 210px;
+    left: 130px;
     padding: 17px;
 
 }
+.btn-light{
+position: relative;
+left: 0px;
+
 }
 
-img{
-    height:20%;
-    width:50%;
+#images{
+    left:0px;
 }
+}
+
+button {
+    
+    position: relative;
+    left: 0px;
+    bottom: 62px;
+    width: 202px;
+    
+    display: inline-block;
+    padding-top: 4px;
+    padding-bottom: 6px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn-light{
+    color:white;
+    background-color: rgb(89,170,165);
+    border: none;
+    border-radius:0;
+    width:90%;
+}
+
+#submit-btn{
+    position: relative;
+    bottom: 3px;
+    background: rgb(89,170,165);
+    color: white;
+    font-family: arial;
+}
+
+
+
