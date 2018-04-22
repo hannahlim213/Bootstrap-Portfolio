@@ -140,4 +140,34 @@ button {
 }
 
 
+#images{
+    left:0px;
+}
+
+
+button {
+    
+    position: relative;
+    left: 0px;
+    bottom: 62px;
+    width: 202px;
+    
+    display: inline-block;
+    padding-top: 4px;
+    padding-bottom: 6px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn-light{
+    color:white;
+    background-color: rgb(89,170,165);
+    border: none;
+    border-radius:0;
+    width:90%;
+}
+
+
+
+
+
 
