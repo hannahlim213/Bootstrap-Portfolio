@@ -10,7 +10,54 @@
 }
 
 .about-me-text{
-    margin:10px;
     font-size:20px;
 }
 
+.custom-brand{
+    position: relative;
+    left: 118px;
+    background-color: rgb(89,170,165);
+    padding: 12px 24px 10px;
+    bottom: 0px;
+}
+
+#navbar{
+    color:rgb(173, 172, 172);
+    
+}
+
+.navbar-right{
+    padding-right:100px;
+
+}
+
+.navbar{
+    padding:0px;
+}
+
+.aboutme{
+    color:rgb(89,170,165);
+}
+
+@media screen and (max-width:640px) {
+
+.custom-brand{
+        width: 100%;
+        text-align: center;
+        position: relative;
+        left: 0px;
+        margin-left:0px;
+        margin-right:0px;
+}
+.navbar-right{
+    position: relative;
+    left: 210px;
+    padding: 17px;
+
+}
+}
+
+img{
+    height:20%;
+    width:50%;
+}
